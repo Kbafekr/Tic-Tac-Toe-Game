@@ -108,8 +108,8 @@ else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' ||
     window.alert('Player 1 Wins!');
 }
 
-else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
-    b2 == '0') && (b3 == '0' || b3 == '0')) {
+else if ((b1 == 'o' || b1 == 'O') && (b2 == 'o' ||
+    b2 == 'O') && (b3 == 'o' || b3 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b4").disabled = true;
@@ -120,8 +120,8 @@ else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
     document.getElementById("b9").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
-    b4 == '0') && (b7 == '0' || b7 == '0')) {
+else if ((b1 == 'o' || b1 == 'O') && (b4 == 'o' ||
+    b4 == 'O') && (b7 == 'o' || b7 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b2").disabled = true;
@@ -132,8 +132,8 @@ else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
     document.getElementById("b9").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
-    b8 == '0') && (b9 == '0' || b9 == '0')) {
+else if ((b7 == 'o' || b7 == 'O') && (b8 == 'o' ||
+    b8 == 'O') && (b9 == 'o' || b9 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b1").disabled = true;
@@ -144,8 +144,8 @@ else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
     document.getElementById("b6").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
-    b6 == '0') && (b9 == '0' || b9 == '0')) {
+else if ((b3 == 'o' || b3 == 'O') && (b6 == 'o' ||
+    b6 == 'O') && (b9 == 'o' || b9 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b1").disabled = true;
@@ -156,8 +156,8 @@ else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
     document.getElementById("b8").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
-    b5 == '0') && (b9 == '0' || b9 == '0')) {
+else if ((b1 == 'o' || b1 == 'O') && (b5 == 'o' ||
+    b5 == 'O') && (b9 == 'o' || b9 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b2").disabled = true;
@@ -168,8 +168,8 @@ else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
     document.getElementById("b8").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
-    b5 == '0') && (b7 == '0' || b7 == '0')) {
+else if ((b3 == 'o' || b3 == 'O') && (b5 == 'o' ||
+    b5 == 'O') && (b7 == 'o' || b7 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b1").disabled = true;
@@ -180,8 +180,8 @@ else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
     document.getElementById("b9").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
-    b5 == '0') && (b8 == '0' || b8 == '0')) {
+else if ((b2 == 'o' || b2 == 'O') && (b5 == 'o' ||
+    b5 == 'O') && (b8 == 'o' || b8 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b1").disabled = true;
@@ -192,8 +192,8 @@ else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
     document.getElementById("b9").disabled = true;
     window.alert('Player 2 Wins!');
 }
-else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
-    b5 == '0') && (b6 == '0' || b6 == '0')) {
+else if ((b4 == 'o' || b4 == 'O') && (b5 == 'o' ||
+    b5 == 'O') && (b6 == 'o' || b6 == 'O')) {
     document.getElementById('print')
         .innerHTML = "Player 2 Wins!";
     document.getElementById("b1").disabled = true;
@@ -206,12 +206,12 @@ else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 }
 
 
-else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
-    || b2 == '0') && (b3 == 'X' || b3 == '0') &&
-    (b4 == 'X' || b4 == '0') && (b5 == 'X' ||
-    b5 == '0') && (b6 == 'X' || b6 == '0') &&
-    (b7 == 'X' || b7 == '0') && (b8 == 'X' ||
-    b8 == '0') && (b9 == 'X' || b9 == '0')) {
+else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X'
+    || b2 == '') && (b3 == 'X' || b3 == 'O') &&
+    (b4 == 'X' || b4 == 'O') && (b5 == 'X' ||
+    b5 == 'O') && (b6 == 'X' || b6 == 'O') &&
+    (b7 == 'X' || b7 == 'O') && (b8 == 'X' ||
+    b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
         document.getElementById('print')
             .innerHTML = "Match Tie";
         window.alert('Match Tie');
@@ -220,11 +220,11 @@ else {
 
     if (flag == 1) {
         document.getElementById('print')
-            .innerHTML = "Player X Turn";
+            .innerHTML = "Player 1's Turn";
     }
     else {
         document.getElementById('print')
-            .innerHTML = "Player 0 Turn";
+            .innerHTML = "Player 2's Turn";
     }
 }
 }
@@ -252,7 +252,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b1").value = "0";
+    document.getElementById("b1").value = "O";
     document.getElementById("b1").disabled = true;
     flag = 1;
 }
@@ -265,7 +265,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b2").value = "0";
+    document.getElementById("b2").value = "O";
     document.getElementById("b2").disabled = true;
     flag = 1;
 }
@@ -278,7 +278,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b3").value = "0";
+    document.getElementById("b3").value = "O";
     document.getElementById("b3").disabled = true;
     flag = 1;
 }
@@ -291,7 +291,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b4").value = "0";
+    document.getElementById("b4").value = "O";
     document.getElementById("b4").disabled = true;
     flag = 1;
 }
@@ -304,7 +304,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b5").value = "0";
+    document.getElementById("b5").value = "O";
     document.getElementById("b5").disabled = true;
     flag = 1;
 }
@@ -317,7 +317,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b6").value = "0";
+    document.getElementById("b6").value = "O";
     document.getElementById("b6").disabled = true;
     flag = 1;
 }
@@ -330,7 +330,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b7").value = "0";
+    document.getElementById("b7").value = "O";
     document.getElementById("b7").disabled = true;
     flag = 1;
 }
@@ -343,7 +343,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b8").value = "0";
+    document.getElementById("b8").value = "O";
     document.getElementById("b8").disabled = true;
     flag = 1;
 }
@@ -356,7 +356,7 @@ if (flag == 1) {
     flag = 0;
 }
 else {
-    document.getElementById("b9").value = "0";
+    document.getElementById("b9").value = "O";
     document.getElementById("b9").disabled = true;
     flag = 1;
 }
