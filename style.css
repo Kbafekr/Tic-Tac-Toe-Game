@@ -5,6 +5,8 @@ h1 {
     font-weight: bold;
     color: firebrick;
     text-shadow: 3px 2px 5px black;
+    border: 1px;
+    border-color: aqua;
 } 
 
 #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
